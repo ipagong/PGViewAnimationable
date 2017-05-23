@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="PGViewAnimationable_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YSA-Jc-Jlk" customClass="SampleAnimationLabel" customModule="PGViewAnimationable_Example" customModuleProvider="target">
+                                <rect key="frame" x="16" y="81" width="343" height="47"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="47" id="LzI-Es-b7J"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="spD-Mb-a73" customClass="SampleAnimationLabel" customModule="PGViewAnimationable_Example" customModuleProvider="target">
+                                <rect key="frame" x="16" y="246" width="343" height="47"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="47" id="rWA-L3-eLP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cxh-5f-lYz" customClass="SampleAnimationLabel" customModule="PGViewAnimationable_Example" customModuleProvider="target">
+                                <rect key="frame" x="16" y="191" width="343" height="47"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="47" id="6UT-Bo-7Cl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HKg-2R-eKb" customClass="SampleAnimationLabel" customModule="PGViewAnimationable_Example" customModuleProvider="target">
+                                <rect key="frame" x="16" y="136" width="343" height="47"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="47" id="pJK-74-wZM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="p1P-qg-n9p">
+                                <rect key="frame" x="16" y="20" width="343" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="Sek-aw-fNb"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                    <segment title="Third"/>
+                                </segments>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <connections>
+                                    <action selector="onValueChanged:" destination="vXZ-lx-hvc" eventType="valueChanged" id="vhJ-E5-9Sx"/>
+                                </connections>
+                            </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RZz-jf-728" customClass="SampleAnimationLabel" customModule="PGViewAnimationable_Example" customModuleProvider="target">
+                                <rect key="frame" x="16" y="301" width="343" height="47"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="47" id="Ruh-g9-QlB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="YSA-Jc-Jlk" secondAttribute="trailing" id="08Y-EX-jRD"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="RZz-jf-728" secondAttribute="leading" id="0Pb-P5-lmi"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="RZz-jf-728" secondAttribute="trailing" id="1u8-tE-AoT"/>
+                            <constraint firstItem="RZz-jf-728" firstAttribute="top" secondItem="spD-Mb-a73" secondAttribute="bottom" constant="8" id="B3z-7g-3Du"/>
+                            <constraint firstItem="p1P-qg-n9p" firstAttribute="leading" secondItem="YSA-Jc-Jlk" secondAttribute="leading" id="LtN-Yz-Us6"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="cxh-5f-lYz" secondAttribute="leading" id="MlM-nM-Lls"/>
+                            <constraint firstItem="p1P-qg-n9p" firstAttribute="trailing" secondItem="YSA-Jc-Jlk" secondAttribute="trailing" id="MtQ-lp-W4U"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="HKg-2R-eKb" secondAttribute="leading" id="WFJ-vU-U1v"/>
+                            <constraint firstItem="spD-Mb-a73" firstAttribute="top" secondItem="cxh-5f-lYz" secondAttribute="bottom" constant="8" id="Xc7-Y1-sXV"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="HKg-2R-eKb" secondAttribute="trailing" id="fla-aJ-47L"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="YSA-Jc-Jlk" secondAttribute="leading" id="gCM-m3-kTR"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="spD-Mb-a73" secondAttribute="leading" id="gRn-b1-ECX"/>
+                            <constraint firstItem="cxh-5f-lYz" firstAttribute="top" secondItem="HKg-2R-eKb" secondAttribute="bottom" constant="8" id="hoH-Rc-gHi"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="spD-Mb-a73" secondAttribute="trailing" id="i63-GE-4IP"/>
+                            <constraint firstItem="p1P-qg-n9p" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="kXX-EA-KuK"/>
+                            <constraint firstItem="YSA-Jc-Jlk" firstAttribute="top" secondItem="p1P-qg-n9p" secondAttribute="bottom" constant="33" id="soY-Rn-qLy"/>
+                            <constraint firstItem="HKg-2R-eKb" firstAttribute="top" secondItem="YSA-Jc-Jlk" secondAttribute="bottom" constant="8" id="uKG-nK-sqJ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="cxh-5f-lYz" secondAttribute="trailing" id="zU2-Ko-XU6"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="downLabel" destination="spD-Mb-a73" id="ux6-Iy-3b5"/>
+                        <outlet property="fadeLabel" destination="RZz-jf-728" id="VQV-vb-FTF"/>
+                        <outlet property="leftLabel" destination="YSA-Jc-Jlk" id="cTJ-ID-mGR"/>
+                        <outlet property="rightLabel" destination="HKg-2R-eKb" id="QdH-ip-J12"/>
+                        <outlet property="upLabel" destination="cxh-5f-lYz" id="o3V-Li-ItO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="36.431784107946029"/>
+        </scene>
+    </scenes>
+</document>

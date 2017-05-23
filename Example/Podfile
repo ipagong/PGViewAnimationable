@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PGViewAnimationable_Example' do
+  pod 'PGViewAnimationable', :path => '../'
+
+  target 'PGViewAnimationable_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

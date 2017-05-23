@@ -1,0 +1,6 @@
+framework module PGViewAnimationable {
+  umbrella header "PGViewAnimationable-umbrella.h"
+
+  export *
+  module * { export * }
+}
