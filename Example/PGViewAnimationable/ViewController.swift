@@ -16,14 +16,27 @@ class ViewController: UIViewController {
     @IBOutlet weak var downLabel: SampleAnimationLabel!
     @IBOutlet weak var fadeLabel: SampleAnimationLabel!
     
+    @IBOutlet weak var leftImageView: SampleAnimationImageView!
+    @IBOutlet weak var rightImageView: SampleAnimationImageView!
+    @IBOutlet weak var upImageView: SampleAnimationImageView!
+    @IBOutlet weak var downImageView: SampleAnimationImageView!
+    @IBOutlet weak var fadeImageView: SampleAnimationImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        leftLabel.type = .left
+        leftLabel.type  = .left
         rightLabel.type = .right
-        upLabel.type = .up
-        downLabel.type = .down
-        fadeLabel.type = .fade
+        upLabel.type    = .up
+        downLabel.type  = .down
+        fadeLabel.type  = .fade
+        
+        
+        leftImageView.type  = .left
+        rightImageView.type = .right
+        upImageView.type    = .up
+        downImageView.type  = .down
+        fadeImageView.type  = .fade
         
     }
 
@@ -56,7 +69,21 @@ class ViewController: UIViewController {
             segment.isEnabled = true
         }
         
-        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
+            self.leftImageView.animateImageName = title
+        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.6) {
+            self.rightImageView.animateImageName = title
+        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.9) {
+            self.upImageView.animateImageName = title
+        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.2) {
+            self.downImageView.animateImageName = title
+        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
+            self.fadeImageView.animateImageName = title
+        }
     }
 }
 

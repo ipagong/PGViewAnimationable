@@ -16,6 +16,7 @@
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		6807F9A2C5B01459858A9DB0 /* Pods_PGViewAnimationable_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59E8D84EBCBB19B8BD4F087B /* Pods_PGViewAnimationable_Tests.framework */; };
 		911695641ED41E2F007D4425 /* SampleAnimationLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911695631ED41E2F007D4425 /* SampleAnimationLabel.swift */; };
+		9170CC4B1ED510D4005AC72A /* SampleAnimationImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9170CC4A1ED510D4005AC72A /* SampleAnimationImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		89579040DED43A1928733506 /* Pods-PGViewAnimationable_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PGViewAnimationable_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PGViewAnimationable_Example/Pods-PGViewAnimationable_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		911695631ED41E2F007D4425 /* SampleAnimationLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleAnimationLabel.swift; sourceTree = "<group>"; };
+		9170CC4A1ED510D4005AC72A /* SampleAnimationImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleAnimationImageView.swift; sourceTree = "<group>"; };
 		92C2E4E9D22BA205EEA04F92 /* PGViewAnimationable.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PGViewAnimationable.podspec; path = ../PGViewAnimationable.podspec; sourceTree = "<group>"; };
 		938023AC2BC5968CE6D09C57 /* Pods-PGViewAnimationable_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PGViewAnimationable_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-PGViewAnimationable_Example/Pods-PGViewAnimationable_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CC8FEC0FCED5F8E0EBDCCCF9 /* Pods-PGViewAnimationable_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PGViewAnimationable_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PGViewAnimationable_Tests/Pods-PGViewAnimationable_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				911695631ED41E2F007D4425 /* SampleAnimationLabel.swift */,
+				9170CC4A1ED510D4005AC72A /* SampleAnimationImageView.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -365,6 +368,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				911695641ED41E2F007D4425 /* SampleAnimationLabel.swift in Sources */,
+				9170CC4B1ED510D4005AC72A /* SampleAnimationImageView.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
