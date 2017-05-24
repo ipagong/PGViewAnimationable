@@ -14,7 +14,26 @@ You can simple use it through protocol with your custom views.
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-appetize.io demo : [\[ here \]]()
+appetize.io demo : [\[ here \]](https://appetize.io/embed/ffwrpj5nttjrfcna4f1606w02m?device=iphone5s&scale=75&orientation=portrait&osVersion=9.3)
+
+
+Make custom view with ViewAnimationable protocol.  
+
+```swift
+class XxxxImageView: UIImageView, ViewAnimationable {
+
+    /* required protocl variable. */
+    public var type:ViewAnimationType = .up
+
+    /* use executeAnimation methods when you need. */
+    public func startXxxxAnimation() {
+        executeAnimation {
+            /* do something. between animation. */
+            // in this sample, need to change image.
+        }
+    }
+}
+```
 
 ## Requirements
 
