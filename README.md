@@ -38,7 +38,7 @@ class XxxxImageView: UIImageView, ViewAnimationable {
 ## Requirements
 
 - above ios 8.0
-- swift 3.0
+- swift 5.0
 - with cocoapods
 
 ## Installation

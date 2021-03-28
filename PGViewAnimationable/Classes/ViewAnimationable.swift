@@ -100,7 +100,7 @@ extension ViewAnimationable {
         UIView.animate(withDuration: self.duration/2, animations: { self.disappearAnimation() }) { _ in
             
             self.prepareAppearAnimation()
-            changeBlock?()
+            changeBlock?(())
             
             UIView.animate(withDuration: self.duration/2, animations: { self.appearAnimation() })
         }
