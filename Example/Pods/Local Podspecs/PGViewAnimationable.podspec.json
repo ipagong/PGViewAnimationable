@@ -1,8 +1,8 @@
 {
   "name": "PGViewAnimationable",
-  "version": "0.1.0",
-  "summary": "A short description of PGViewAnimationable.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.2.0",
+  "summary": "View Animation Protocol.",
+  "description": "You can make easier Custom Animation View with ViewAnimationable Protocol",
   "homepage": "https://github.com/ipagong/PGViewAnimationable",
   "license": {
     "type": "MIT",
@@ -13,10 +13,10 @@
   },
   "source": {
     "git": "https://github.com/ipagong/PGViewAnimationable.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "11.0"
   },
   "source_files": "PGViewAnimationable/Classes/**/*"
 }

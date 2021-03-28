@@ -11,7 +11,7 @@ import PGViewAnimationable
 
 class SampleAnimationLabel : UILabel, ViewAnimationable {
     
-    public var type:ViewAnimationType = .up
+    public var animationValue: AnimationValue = .default
     
     var animateText:String? {
         set {

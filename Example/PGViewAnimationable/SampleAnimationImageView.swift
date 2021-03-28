@@ -10,7 +10,7 @@ import UIKit
 import PGViewAnimationable
 
 class SampleAnimationImageView: UIImageView, ViewAnimationable {
-    public var type:ViewAnimationType = .up
+    public var animationValue: AnimationValue = .default
     
     private var _animateImageName:String?
     var animateImageName:String? {

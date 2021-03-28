@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PGViewAnimationable'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'View Animation Protocol.'
   s.description      = 'You can make easier Custom Animation View with ViewAnimationable Protocol'
   s.homepage         = 'https://github.com/ipagong/PGViewAnimationable'

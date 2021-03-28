@@ -25,18 +25,18 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        leftLabel.type  = .left
-        rightLabel.type = .right
-        upLabel.type    = .up
-        downLabel.type  = .down
-        fadeLabel.type  = .fade
+        leftLabel.animationValue  = .init(type: .left)
+        rightLabel.animationValue = .init(type: .right)
+        upLabel.animationValue    = .init(type: .up)
+        downLabel.animationValue  = .init(type: .down)
+        fadeLabel.animationValue  = .init(type: .fade)
         
         
-        leftImageView.type  = .left
-        rightImageView.type = .right
-        upImageView.type    = .up
-        downImageView.type  = .down
-        fadeImageView.type  = .fade
+        leftImageView.animationValue  = .init(type: .left)
+        rightImageView.animationValue = .init(type: .right)
+        upImageView.animationValue    = .init(type: .up)
+        downImageView.animationValue  = .init(type: .down)
+        fadeImageView.animationValue  = .init(type: .fade)
         
     }
 
