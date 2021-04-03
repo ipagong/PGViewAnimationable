@@ -1,6 +1,6 @@
 {
   "name": "PGViewAnimationable",
-  "version": "0.2.0",
+  "version": "0.4.0",
   "summary": "View Animation Protocol.",
   "description": "You can make easier Custom Animation View with ViewAnimationable Protocol",
   "homepage": "https://github.com/ipagong/PGViewAnimationable",
@@ -13,10 +13,10 @@
   },
   "source": {
     "git": "https://github.com/ipagong/PGViewAnimationable.git",
-    "tag": "0.2.0"
+    "tag": "0.4.0"
   },
   "platforms": {
-    "ios": "11.0"
+    "ios": "10.0"
   },
   "source_files": "PGViewAnimationable/Classes/**/*"
 }

@@ -1,5 +1,5 @@
 PODS:
-  - PGViewAnimationable (0.2.0)
+  - PGViewAnimationable (0.4.0)
 
 DEPENDENCIES:
   - PGViewAnimationable (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PGViewAnimationable: 154cba8833197fead5bf6a29f6ef94847339292b
+  PGViewAnimationable: c917fff6017b0735b0d973e1bd91931187725ed1
 
 PODFILE CHECKSUM: 5de5f67114634f19d452406d8f9426f0149df610
 
